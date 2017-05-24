@@ -1,5 +1,5 @@
 def palindrome?(string)
-	t1 = Time.now
+	#t1 = Time.now
 	arr = []
 	i = 0
 	while i < string.length
@@ -12,8 +12,8 @@ def palindrome?(string)
 	else 
 		false
 	end
-	t2 = Time.now
-	puts delta = (t2-t1) *1000
+	#t2 = Time.now
+	#puts delta = (t2-t1) *1000
 end
 
 puts palindrome?("abcba")
